@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+    
 }
 /* header section start */
 header{
@@ -105,4 +107,33 @@ header{
     border-radius: 4px;
 }
 /* About us section End */
+/* Service section start */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image,
+.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 540px;
+    height: 540px;
+}
+/* Service section end */
 
+/* Footer section start */  
+footer{
+    width: 100%;
+    height: auto;
+    color: #fff;
+    padding: 10px 100px;
+    background: rgb(7, 7, 105);
+    text-align: center;
+}
+/* Footer section end */
